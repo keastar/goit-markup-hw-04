@@ -111,10 +111,16 @@ a.top-logo > span {
 }
 
 .hero {
+    max-width: 1600px;
+    margin: 0 auto;
+    
     color: var(--third-text-color);
     background-color: var(--bg-color);
     padding-top: 200px;
     padding-bottom: 200px;
+
+    background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/img_HEROpro.jpg);
 }
 
 .hero-container {
