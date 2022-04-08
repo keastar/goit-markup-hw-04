@@ -305,6 +305,10 @@ a.top-logo > span {
     padding-bottom: 60px;
 }
 
+.fotter-container {
+    display: flex;
+}
+
 .bott-container {
     display: flex;
     flex-direction: column;
