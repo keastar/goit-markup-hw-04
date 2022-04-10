@@ -94,22 +94,37 @@ a.top-logo > span {
 }
 
 .top-adr-item {
-    margin-right: 50px;
+    margin-right: 30px;
 }
 
 .top-adr a {
     text-decoration: none;
     color: var(--main-text-colorlight);
     font-weight: 500;
+
+    padding-left: 10px;
 }
 
-.top-adr a:hover {
+.top-adr .top-adr-social {
+    color: var(--main-text-colorlight);
+}
+
+.top-adr-social:hover {
     color: var(--second-text-color);
 }
 
-.top-adr a:focus {
+.top-adr-social:focus {
     color: var(--second-text-color);
 }
+
+.top-adr .socials-icons-top {
+    fill: var(--main-text-colorlight);
+}
+
+.top-adr-social {
+    fill: var(--main-text-colorlight);
+}
+
 
 .hero {
     max-width: 1600px;
@@ -326,6 +341,35 @@ a.top-logo > span {
 }
 
 .social-icon {
+    fill: var(--main-color-icon);
+}
+
+.clients {
+    padding-top: 94px;
+}
+
+.clients-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clients-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+
+    padding-bottom: 50px;
+}
+
+.clients-list {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+
+.clients-icon {
     fill: var(--main-color-icon);
 }
 
