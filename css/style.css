@@ -109,11 +109,11 @@ a.top-logo > span {
     color: var(--main-text-colorlight);
 }
 
-.top-adr-social:hover {
+.top-adr a:hover {
     color: var(--second-text-color);
 }
 
-.top-adr-social:focus {
+.top-adr a:focus {
     color: var(--second-text-color);
 }
 
@@ -125,6 +125,13 @@ a.top-logo > span {
     fill: var(--main-text-colorlight);
 }
 
+.socials-icons-top:hover {
+    fill: var(--second-text-color);
+}
+
+.socials-icons-top:focus {
+    fill: var(--second-text-color);
+}
 
 .hero {
     max-width: 1600px;
@@ -433,12 +440,13 @@ a.top-logo > span {
 
 .fotter-container {
     display: flex;
+    padding-left: 100px;
 }
 
 .bott-container {
     display: flex;
     flex-direction: column;
-    width: 360px;
+    width: 291px;
     padding-right: 0px;
 }
 
