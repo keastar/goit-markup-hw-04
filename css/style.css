@@ -605,6 +605,13 @@ a.bott-logo > span {
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
+.promo-titles:focus {
+    background-color: var(--second-text-color);
+    color: var(--third-text-color);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
 .demo-container-list {
     display: flex;
     flex-wrap: wrap;
@@ -614,6 +621,12 @@ a.bott-logo > span {
 .demo-item {
     width: 370px;
     background: #FFFFFF;    
+}
+
+.demo-item:hover {
+    cursor: pointer;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .demo-item:not(:nth-child(3n+3)) {
