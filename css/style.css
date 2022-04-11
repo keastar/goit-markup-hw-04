@@ -189,7 +189,17 @@ a.top-logo > span {
 
 .container-item {
     margin-right: 30px;
-    
+}
+
+.deal-pic {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    background-color: var(--bg-colorlight);
 }
 
 .container-item:last-child {
@@ -232,6 +242,10 @@ a.top-logo > span {
    
     width: 270px;
     height: 75px;
+}
+
+.deal-icon {
+    fill: var(--main-color-icon);
 }
 
 .team {
