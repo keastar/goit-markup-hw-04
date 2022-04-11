@@ -126,10 +126,12 @@ a.top-logo > span {
 }
 
 .socials-icons-top:hover {
+    cursor: pointer;
     fill: var(--second-text-color);
 }
 
 .socials-icons-top:focus {
+    cursor: pointer;
     fill: var(--second-text-color);
 }
 
