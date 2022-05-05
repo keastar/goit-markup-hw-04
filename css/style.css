@@ -88,55 +88,38 @@ a.top-logo > span {
     margin: 0;
 }
 
-.top-adr {
+.top-adr-social {
+    padding-right: 0;
+}
+
+.top-adr-social .top-adr {
     display: flex;
     align-items: center;
-    margin-right: 0;
-    margin-left: auto;
+    justify-content: end;
     padding-top: 32px;
     padding-bottom: 32px;
 }
 
-.top-adr-item {
+.top-adr-social .top-adr-item:not(:last-child) {
     margin-right: 30px;
 }
 
-.top-adr a {
+.top-adr-social .link {
+    display: flex;
+    align-items: center;
     text-decoration: none;
     color: var(--main-text-colorlight);
     font-weight: 500;
-
-    padding-left: 10px;
 }
 
-.top-adr .top-adr-social {
-    color: var(--main-text-colorlight);
-}
-
-.top-adr a:hover {
+.top-adr-social .link:hover,
+.top-adr-social .link:focus {
     color: var(--second-text-color);
 }
 
-.top-adr a:focus {
-    color: var(--second-text-color);
-}
-
-.top-adr .socials-icons-top {
-    fill: var(--main-text-colorlight);
-}
-
-.top-adr-social {
-    fill: var(--main-text-colorlight);
-}
-
-.socials-icons-top:hover {
-    cursor: pointer;
-    fill: var(--second-text-color);
-}
-
-.socials-icons-top:focus {
-    cursor: pointer;
-    fill: var(--second-text-color);
+.top-adr-social .socials-icons-top {
+    margin-right: 10px;
+    fill: currentColor;
 }
 
 .hero {
